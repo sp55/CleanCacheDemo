@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845F14D31D6E8BA000C60900 /* SandBoxPathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F14D21D6E8BA000C60900 /* SandBoxPathHelper.m */; };
 		84CCB0431CD878C40059C18F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB0421CD878C40059C18F /* main.m */; };
 		84CCB0461CD878C40059C18F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB0451CD878C40059C18F /* AppDelegate.m */; };
 		84CCB0491CD878C40059C18F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB0481CD878C40059C18F /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		845F14D11D6E8BA000C60900 /* SandBoxPathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandBoxPathHelper.h; sourceTree = "<group>"; };
+		845F14D21D6E8BA000C60900 /* SandBoxPathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandBoxPathHelper.m; sourceTree = "<group>"; };
 		84CCB03E1CD878C40059C18F /* CleanCacheDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanCacheDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CCB0421CD878C40059C18F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84CCB0441CD878C40059C18F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				84CCB0481CD878C40059C18F /* ViewController.m */,
 				84CCB0741CD878F30059C18F /* CleanCachesHelper.h */,
 				84CCB0751CD878F30059C18F /* CleanCachesHelper.m */,
+				845F14D11D6E8BA000C60900 /* SandBoxPathHelper.h */,
+				845F14D21D6E8BA000C60900 /* SandBoxPathHelper.m */,
 				84CCB04A1CD878C40059C18F /* Main.storyboard */,
 				84CCB04D1CD878C40059C18F /* Assets.xcassets */,
 				84CCB04F1CD878C40059C18F /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CCB0761CD878F30059C18F /* CleanCachesHelper.m in Sources */,
+				845F14D31D6E8BA000C60900 /* SandBoxPathHelper.m in Sources */,
 				84CCB0491CD878C40059C18F /* ViewController.m in Sources */,
 				84CCB0461CD878C40059C18F /* AppDelegate.m in Sources */,
 				84CCB0431CD878C40059C18F /* main.m in Sources */,
@@ -505,6 +511,7 @@
 				84CCB06D1CD878C40059C18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CCB06E1CD878C40059C18F /* Build configuration list for PBXNativeTarget "CleanCacheDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				84CCB0701CD878C40059C18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CCB0711CD878C40059C18F /* Build configuration list for PBXNativeTarget "CleanCacheDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				84CCB0731CD878C40059C18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
